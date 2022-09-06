@@ -1,0 +1,22 @@
+.search {
+  background-color: rgb(255, 255, 255);
+  padding: 1rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  align-self: baseline;
+}
+
+.search h2 {
+  color: var(--theme-color);
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.search input {
+  outline: 0;
+  border: 2px solid var(--theme-color);
+  width: 100%;
+  font-size: 1rem;
+  padding: 8px;
+}

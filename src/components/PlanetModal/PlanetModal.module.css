@@ -1,0 +1,40 @@
+.planet_modal h2  {
+  color: var(--theme-color) !important;
+}
+
+.planet_modal_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.planet_modal_header button {
+  color: var(--theme-color);
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+
+.planet_modal table {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.planet_modal table td,
+.planet_modal table th {
+  padding: 12px;
+  color: var(--theme-color);
+  text-transform: capitalize;
+}
+
+.planet_modal tr td:first-child {
+  font-weight: bold !important;
+}
+
+.planet_modal tr:nth-child(odd) {
+  background-color: rgb(243, 243, 243);
+}

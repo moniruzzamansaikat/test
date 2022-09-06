@@ -1,0 +1,39 @@
+.contact_screen {
+
+}
+
+.form  {
+  padding: 1rem;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form > div {
+  margin-bottom: 1rem;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid;
+  border-radius: 5px;
+  border-color: rgb(190, 190, 190);
+  outline: 0;
+  font-size: 1rem;
+}
+
+.form textarea,
+.form textarea::placeholder {
+  font-family: montserrat, sans-serif !important;
+}
+
+.form input:hover,
+.form input:focus {
+  border-color: var(--theme-color);
+}
+
+.form button {
+  background-color: var(--theme-color) !important;
+  color: #fff;
+}

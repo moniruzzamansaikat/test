@@ -1,0 +1,12 @@
+.home_screen {
+  display: grid;
+  grid-template-columns: 300px auto;
+  grid-gap: 1rem;
+}
+
+
+@media (max-width: 720px) {
+ .home_screen {
+   grid-template-columns: 1fr;
+ } 
+}

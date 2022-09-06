@@ -1,0 +1,51 @@
+.char_details {
+
+}
+
+.char_details h2 {
+  color: var(--theme-color);
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.char_details h2:last-child {
+  margin-top: 1rem;
+}
+
+.char_details table {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.char_details table td,
+.char_details table th {
+  padding: 12px;
+  color: var(--theme-color);
+  text-transform: capitalize;
+}
+
+.char_details tr td:first-child {
+  font-weight: bold !important;
+}
+
+.char_details tr:nth-child(odd) {
+  background-color: rgb(243, 243, 243);
+}
+
+.char_details button {
+  padding: 8px 1rem;
+  font-size: 1.1rem;
+  border: 0;
+  cursor: pointer;
+  outline: 0;
+  background-color: var(--secondary-color);
+  color: var(--theme-color);
+}
+
+.char_details button i {
+  margin-left: 5px;
+}
+
+.char_details button:hover {
+  background: rgb(209, 209, 209);
+}

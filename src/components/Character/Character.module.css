@@ -1,0 +1,33 @@
+.character {
+  padding: 1rem;
+  background-color: var(--theme-color);
+  color: #fff;
+  position: relative;
+}
+
+.character p {
+  margin: 10px 0;
+}
+
+.character button {
+  margin-top: 1rem;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.character i {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.character i:hover {
+  color: var(--secondary-color);
+}
+
+.saved_item {
+  color: var(--secondary-color) !important;
+}

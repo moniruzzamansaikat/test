@@ -1,0 +1,17 @@
+.characters {
+  background-color: rgb(255, 255, 255);
+  padding: 1rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 4px;
+  margin-bottom: 2rem;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+  grid-gap: 1rem;
+}
+
+.characters > * {
+  align-self: baseline;
+}

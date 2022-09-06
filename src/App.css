@@ -1,39 +1,82 @@
-.App {
-  text-align: center;
+
+:root {
+  --container-width: 1080px;
+  --navbar-height: 100px;
+  --theme-color: #6000ba;
+  --secondary-color: #FBDF07;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
+body {
+  font-family: montserrat, sans-serif !important;
 }
 
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.container {
+  max-width: var(--container-width);
+  padding: 0 1rem;
+  margin: 0 auto;
 }
 
-.App-link {
-  color: rgb(112, 76, 182);
+a {
+  text-decoration: none;
 }
 
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
+img {
+  width: 100%;
+  height: auto;
+}
+
+.btn {
+  padding: 8px 1rem;
+  font-size: 1.1rem;
+  border: 0;
+  cursor: pointer;
+  outline: 0;
+  background-color: var(--secondary-color);
+  color: var(--theme-color);
+}
+
+.btn i {
+  margin-left: 5px;
+}
+
+.btn:hover {
+  background: rgb(209, 209, 209);
+}
+
+.btn-danger {
+  background-color: #EB1D36 !important;
+}
+
+.btn-danger {
+  color: #fff !important;
+}
+
+.pagination {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    color: var(--theme-color);
+    padding: 10px;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
+.page_title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--theme-color);
 }
